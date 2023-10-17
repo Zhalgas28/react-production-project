@@ -1,0 +1,19 @@
+@import "reset.scss";
+@import "variables/globals.scss";
+@import "themes/normal";
+@import "themes/dark";
+
+.app {
+  font: var(--font-m);
+  min-height: 100%;
+  padding: 20px;
+  background: var(--bg-color);
+}
+
+div {
+  color: var(--color-primary);
+}
+
+a {
+  color: var(--color-secondary);
+}
