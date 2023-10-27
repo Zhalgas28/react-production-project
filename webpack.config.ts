@@ -7,7 +7,8 @@ export default (env: webpackConfigEnv) => {
   const configPaths: webpackConfigPaths = {
     build: path.resolve(__dirname, 'dist'),
     entry: path.resolve(__dirname, 'src', 'index.tsx'),
-    html: path.resolve(__dirname, 'public', 'index.html')
+    html: path.resolve(__dirname, 'public', 'index.html'),
+    src: path.resolve(__dirname, 'src')
   }
 
   const port: number = env.port || 3000

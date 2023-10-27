@@ -1,0 +1,15 @@
+.button {
+  font: var(--font-l);
+  color: var(--inverted-color-primary);
+}
+
+.clear {
+ border: none; 
+ background-color: transparent;
+}
+
+.primary {
+  border: 1px solid var(--inverted-color-primary);
+  padding: 5px 10px;
+  border-radius: 5px;
+}

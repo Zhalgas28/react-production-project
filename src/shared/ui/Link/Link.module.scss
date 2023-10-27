@@ -1,0 +1,18 @@
+.link {
+  font: var(--font-l);
+  
+  &.primary {
+    color: var(--inverted-color-primary);
+  }
+
+  &.secondary {
+    color: var(--color-primary);
+  }
+
+  &.outlined {
+    color: var(--inverted-color-primary);
+    padding: 5px 10px;
+    border: 1px solid var(--inverted-color-primary);
+    border-radius: 5px;
+  }
+}

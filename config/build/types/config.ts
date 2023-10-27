@@ -4,6 +4,7 @@ export interface webpackConfigPaths {
     entry: string,
     build: string,
     html: string,
+    src: string,
 }
 
 export interface webpackConfigEnv {
